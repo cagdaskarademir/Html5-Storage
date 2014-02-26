@@ -1,21 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Web;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
+using System.IO;
 
-namespace Html5_Storage
+namespace Il_Ilce_Web
 {
     /// <summary>
     /// Summary description for DbHandler
     /// </summary>
     public class DbHandler : IHttpHandler
     {
-        /// <summary>
-        /// Json Çıktısı Olarak AppData İçindeki İlleri Servisten Yayınlıyoruz
-        /// </summary>
-        /// <param name="context"></param>
+
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "application/json";

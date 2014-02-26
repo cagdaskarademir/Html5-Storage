@@ -1,1 +1,1 @@
-﻿<%@ WebHandler Language="C#" CodeBehind="DbHandler.ashx.cs" Class="Il_Ilce_Web.DbHandler" %>
+﻿<%@ WebHandler Language="C#" CodeBehind="DbHandler.ashx.cs" Class="Html5_Storage.DbHandler" %>
